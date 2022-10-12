@@ -1,0 +1,48 @@
+.your-location h4{
+	background-color: white;
+	display: inline-block;
+	padding: 5px 10px;
+	margin-top: 10px;
+    font-size: 18px;
+}
+.dhaka-location h4 {
+	display: inline-block;
+	background: white;
+	margin-top: 10px;
+	padding: 5px 10px;
+    font-size: 18px;
+}
+.post-location h4 {
+	display: inline-block;
+	background: white;
+	margin-top: 10px;
+	padding: 5px 10px;
+    font-size: 18px;
+}
+.goli-location h4 {
+	display: inline-block;
+	background: white;
+	margin-top: 10px;
+	padding: 5px 10px;
+    font-size: 18px;
+}
+@media (max-width:575px){
+    .extra-width {
+        width: 50% !important;
+    }
+}
+@media (max-width:355px){
+    .your-location h4{
+        font-size: 15px;
+    }
+    .post-location h4{
+        font-size: 15px;
+    }
+    .dhaka-location h4{
+        font-size: 15px;
+    }
+   .goli-location h4{
+        font-size: 15px;
+    }
+    
+}
